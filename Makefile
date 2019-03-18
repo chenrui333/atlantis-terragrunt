@@ -3,7 +3,7 @@ IMAGE ?= atlantis-terragrunt
 QNAME ?= $(OWNER)/$(IMAGE)
 
 GIT_TAG=$(QNAME):$(TRAVIS_COMMIT)
-VERSION ?= 0.1
+VERSION ?= 0.2
 BUILD_TAG ?= $(QNAME):$(VERSION)
 LATEST_TAG ?= $(QNAME):latest
 

@@ -11,7 +11,7 @@ lint:
 	docker run -it --rm -v "$(PWD)/Dockerfile:/Dockerfile:ro" redcoolbeans/dockerlint
 
 build: lint
-	docker built -t $(GIT_TAG) .
+	docker build -t $(GIT_TAG) .
 
 tag: build
 	docker tag $(GIT_TAG) $(BUILD_TAG)

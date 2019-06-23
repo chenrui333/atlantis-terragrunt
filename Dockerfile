@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:8.2
+FROM runatlantis/atlantis:v0.8.2
 LABEL authors="Rui Chen <chenrui333@gmail.com>"
 
 ENV TERRAGRUNT_VERSION=v0.19.5

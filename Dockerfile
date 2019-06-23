@@ -1,7 +1,7 @@
-FROM runatlantis/atlantis:latest
+FROM runatlantis/atlantis:8.2
 LABEL authors="Rui Chen <chenrui333@gmail.com>"
 
-ENV TERRAGRUNT_VERSION=v0.18.3
+ENV TERRAGRUNT_VERSION=v0.19.5
 
 RUN curl -s -Lo terragrunt https://github.com/gruntwork-io/terragrunt/releases/download/${TERRAGRUNT_VERSION}/terragrunt_linux_amd64 && \
     chmod +x terragrunt && \

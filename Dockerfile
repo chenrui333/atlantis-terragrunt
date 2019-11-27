@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.10.1
+FROM runatlantis/atlantis:v0.10.2
 
 LABEL authors="Rui Chen <chenrui333@gmail.com>"
 
